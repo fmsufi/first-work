@@ -1,0 +1,180 @@
+.header-area {
+    background-color: #f4f4f4;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.header-rapper {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #483612;
+    color: #fff;
+}
+
+.button button {
+    padding: 8px 20px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.slider-area{
+  background: url('../images/slider-bg.jpg');
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slider-area:before {
+    background: rgba(6, 24, 38, 0.9);  
+    height: 450px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    opacity: 70%;
+    left:0;
+}
+
+
+
+.slider-rapper {
+    width: 85%;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    position: absolute;
+    color: #fff;
+}
+
+.slider-rapper h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.slider-rapper p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 80px;
+}
+.section-title {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.section-title h2 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.section-title p {
+    font-size: 20px;
+}
+.blogs {
+    display: flex;
+}
+
+.single-blog {
+    width: 25%;
+    margin: 10px;
+}
+
+.single-blog img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #333;
+}
+.single-blog button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+.single-blog button a:hover {
+    color: #0A5222;
+}
+.about-area {
+    background-color: #f1f1f1;
+    padding: 70px 0;
+    margin-top:15px ;
+}
+.about-rapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-rapper img {
+    width: 40%;
+}
+
+.about {
+    width: 55%;
+}
+
+
+
+.about-area p {
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.services {
+    display: flex;
+}
+
+.single-service {
+    width: 25%;
+    margin: 10px;
+}
+
+.single-service img {
+    width: 100%;
+    border: 1px solid #444;
+    padding: 5px;
+}
+
+.single-service h2 {
+    padding: 4px 0;
+    font-weight: 500;
+}
+.footer-area {
+    background-color: #f1f1f1;
+    padding: 0;
+}
+.footer-area h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+
